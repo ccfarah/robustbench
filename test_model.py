@@ -5,11 +5,6 @@ from robustbench.utils import load_model
 import foolbox as fb
 from autoattack import AutoAttack
 
-# class ModelTester:
-#     def __init__(self, model, data, test):
-#         self.model = model
-#         self.data = data
-#         self.test = tests
 
 def test_model():
     x_test, y_test = load_cifar10(n_examples=50)
